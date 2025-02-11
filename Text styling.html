@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        text-align: left;
+        font-family: Comic sans ms;
+      }
+      #text {
+        text-shadow: 7px 7px 9px rgb(242, 242, 120);
+        font-family: Impact;
+      }
+      #box {
+        box-shadow: 5px 5px 9px burlywood;
+        font-family: Impact;
+      }
+      div {
+        width: 300px;
+        height: 100px;
+        background-image: linear-gradient(
+          to bottom right,
+          rgb(149, 248, 164),
+          rgb(158, 234, 245),
+          rgb(252, 151, 195),
+          rgb(249, 249, 106),
+          rgb(247, 139, 164)
+        );
+        border: 3px solid black;
+      }
+      #spring {
+        transform: rotateX(180deg);
+      }
+      #summer1 {
+        width: 300px;
+        height: 100px;
+        background-image: linear-gradient(
+          to bottom right,
+          rgb(250, 245, 143),
+          rgb(250, 244, 168),
+          rgb(184, 247, 176),
+          rgb(126, 249, 247),
+          rgb(149, 239, 133)
+        );
+        border: 3px solid black;
+      }
+      #summer2 {
+        transform: rotateX(180deg);
+        width: 300px;
+        height: 100px;
+        background-image: linear-gradient(
+          to bottom right,
+          rgb(250, 245, 143),
+          rgb(250, 244, 168),
+          rgb(184, 247, 176),
+          rgb(250, 251, 170),
+          rgb(184, 252, 172)
+        );
+        border: 3px solid black;
+      }
+      #fall1 {
+        width: 300px;
+        height: 100px;
+        background-image: linear-gradient(
+          to bottom right,
+          rgb(249, 179, 136),
+          rgb(248, 126, 152),
+          rgb(242, 174, 106),
+          rgb(251, 97, 59),
+          rgb(141, 45, 72)
+        );
+        border: 3px solid black;
+      }
+      #fall2 {
+        transform: rotateX(180deg);
+        width: 300px;
+        height: 100px;
+        background-image: linear-gradient(
+          to bottom right,
+          rgb(249, 179, 136),
+          rgb(248, 126, 152),
+          rgb(242, 174, 106),
+          rgb(251, 97, 59),
+          rgb(141, 45, 72)
+        );
+        border: 3px solid black;
+      }
+      #winter1 {
+        width: 300px;
+        height: 100px;
+        background-image: linear-gradient(
+          to bottom right,
+          rgb(198, 245, 240),
+          rgb(198, 230, 248),
+          rgb(200, 248, 242),
+          rgb(143, 192, 244),
+          rgb(193, 207, 252)
+        );
+        border: 3px solid black;
+      }
+      #winter2 {
+        transform: rotateX(180deg);
+        width: 300px;
+        height: 100px;
+        background-image: linear-gradient(
+          to bottom right,
+          rgb(198, 245, 240),
+          rgb(198, 230, 248),
+          rgb(200, 248, 242),
+          rgb(143, 192, 244),
+          rgb(193, 207, 252)
+        );
+        border: 3px solid black;
+      }
+      .s1 {
+        text-decoration: overline;
+        text-transform: capitalize;
+      }
+      .s2 {
+        text-decoration: line-through;
+        text-transform: uppercase;
+      }
+      .f {
+        text-decoration: line-through;
+        text-transform: lowercase;
+      }
+      .w {
+        text-decoration: underline line-through overline;
+        text-transform: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="box">Welcome to the Gallary of Seasons</h1>
+    <h2 id="text">Let's take a look at Diffrent Seasons.</h2>
+
+    <p class="s1">1.Spring</p>
+    <div>Spring</div>
+    <div id="spring">Spring</div>
+    <br />
+
+    <p class="s2">2.Summer</p>
+    <div id="summer1">Summer</div>
+    <div id="summer2">Summer</div>
+    <br />
+
+    <p class="f">3.Fall</p>
+    <div id="fall1">Fall</div>
+    <div id="fall2">Fall</div>
+    <br />
+
+    <p class="w">4.Winter</p>
+    <div id="winter1">Winter</div>
+    <div id="winter2">Winter</div>
+    <br />
+  </body>
+</html>
